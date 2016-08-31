@@ -32,10 +32,9 @@ json_schema_api("nw_api_registration") {
     # include generated headers from these targets.
     # TODO(brettw) this should be made unnecessary if possible.
     ":nw_api",
-    "//components/copresence/proto",
     "//components/metrics/proto",
     "//skia",
-    "//sync",
+    "//components/sync",
     "//ui/accessibility:ax_gen",
   ]
 
